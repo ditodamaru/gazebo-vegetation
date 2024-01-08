@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <sdf version="1.5">
-  <model name="Tree 2">
+  <model name="Tree 2 0.7">
     <static>true</static>
     <pose frame=''>0 0 0 1.57079 0 0</pose>
     <link name="link">
@@ -8,7 +8,7 @@
       <collision name="collision">
         <geometry>
           <mesh>
-            <scale>5 5 5</scale>
+            <scale>0.7 0.7 0.7</scale>
             <uri>model://tree_2/meshes/tree_2.obj</uri>
           </mesh>
         </geometry>
@@ -17,7 +17,7 @@
         <geometry>
           <mesh>
 
-            <scale>5 5 5</scale>
+            <scale>0.7 0.7 0.7</scale>
             <uri>model://tree_2/meshes/tree_2.obj</uri>
           </mesh>
         </geometry>

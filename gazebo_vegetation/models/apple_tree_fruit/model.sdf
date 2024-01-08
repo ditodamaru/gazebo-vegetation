@@ -1,15 +1,15 @@
 <?xml version="1.0" ?>
 <sdf version="1.5">
-  <model name="Tree 1">
-    <static>true</static>
+  <model name="apple_tree_fruit">
+     <static>true</static>
     <pose frame=''>0 0 0 1.57079 0 0</pose>
     <link name="link">
       <pose frame=''>0 0 0 0 0 0</pose>
       <collision name="collision">
         <geometry>
           <mesh>
-            <scale>1.2 1.2 1.2</scale>
-            <uri>model://tree_1/meshes/tree_1.obj</uri>
+            <scale>1 1 1</scale>
+            <uri>model://apple_tree_fruit/meshes/apple_tree_fruit.obj</uri>
           </mesh>
         </geometry>
       </collision>
@@ -17,8 +17,8 @@
         <geometry>
           <mesh>
 
-            <scale>1.2 1.2 1.2</scale>
-            <uri>model://tree_1/meshes/tree_1.obj</uri>
+            <scale>1 1 1</scale>
+            <uri>model://apple_tree_fruit/meshes/apple_tree_fruit.obj</uri>
           </mesh>
         </geometry>
       </visual>
